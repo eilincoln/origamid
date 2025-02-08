@@ -7,15 +7,22 @@
   <title>Box Model</title>
   <style>
     div {
+      border: 1px solid tomato;
+    }
+
+    a {
+      display: inline-block;
+      /* Se eu colocar, a tag pai vai respeitar ela.*/
+      border: 1px solid black;
+      padding: 20px;
       background-color: #84e;
-      width: 200px;
-      height: 200px;
     }
   </style>
 </head>
 
 <body>
-  <div>a</div>
+  <div>Acesse o meu curso <a href="#">neste link</a></div>
+  <div>Acesse o meu curso </div>
 </body>
 
 </html>
